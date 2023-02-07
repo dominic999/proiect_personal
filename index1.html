@@ -9,14 +9,48 @@
 </head>
 <body>
     <div class="navigation">
-        <button>ABOUT ME</button>
-        <button>PROJECTS</button>
-        <button>CONTACT ME</button>
+        <button><a href="#aboutme">ABOUT ME</a></button>
+        <button><a href="#proiecte">PROJECTS</a></button>
+        <button><a href="#contact_me">CONTACT ME</a></button>
     </div>
     <section class="hero">
         <div class="primul">
             <img class="poza" src="poza2.jpeg" alt="" srcset="">
+            <h3>I am Tirdea Dominic, a begginer web developer.</h3>
         </div>
+    </section>
+    <section id="aboutme">
+        <h2>About Me</h2>
+        <div class="aboutme_photo">
+            <img src="aboutme_photo.jpeg" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, nulla nihil accusamus id assumenda tempore harum rerum, odit vel repellat ratione blanditiis a dolore, repellendus magni nesciunt ducimus facilis ab!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, nulla nihil accusamus id assumenda tempore harum rerum, odit vel repellat ratione blanditiis a dolore, repellendus magni nesciunt ducimus facilis ab!</p>
+        </div>
+    </section>
+    <section id="proiecte">
+        <div class="proiecte">
+            <h2>My Projects</h2>
+            <p>To be continued..</p>
+        </div>    
+    </section>
+    <section id="contact_me">
+        <h2>Contact</h2>
+        <p>You can contact me if you have any questions</p>
+        <form class="contact_form">
+            <div class="contact_info">
+                <label for="name">Name:</label>
+                <input type="text" id="name" placeholder="Name" name="name">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" id="">
+                
+            
+                <div class="mesaj">
+                    <label for="msg">Message:</label>
+                    <textarea name="msg" id="msg" cols="30" rows="10"></textarea>
+                    <input type="submit" id="buton">
+                </div>
+            </div>
+        </form>
     </section>
 </body>
 </html>
